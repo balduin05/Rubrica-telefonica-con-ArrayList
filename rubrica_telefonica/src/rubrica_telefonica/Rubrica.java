@@ -33,6 +33,7 @@ public class Rubrica {
 				presente = true;
 
 				System.out.println("Errore: il contatto è già esistente!");
+				System.out.println("Ciao");
 
 			}
 		}
