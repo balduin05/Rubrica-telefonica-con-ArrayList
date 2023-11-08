@@ -172,7 +172,9 @@ public class Rubrica {
 			for(Contatti c : aL) {
 				if(c.getCognome().equalsIgnoreCase(cognome) && c.getNome().equalsIgnoreCase(nome)) {
 					trovato = true;
-					i ++;
+					
+				}else {
+					i ++;  // N.B => Ho bisgono di un contatore che aumenti di uno finchè la condizione risulta vera!
 					
 				}
 			}
